@@ -20,18 +20,18 @@ This project is a modern, full-stack chat platform built with Node.js, Express, 
 
 <details> <summary><strong>📦 Folder Structure</strong></summary>
 real-time-chat-app/
-│
-├── backend/
-│   ├── package.json
-│   └── server.js
-│
-├── frontend/
-│   ├── package.json
-│   └── src/
-│       └── App.js
-│
-├── README.md
-└── ARCHITECTURE.md
+-│
+-├── backend/
+-│   ├── package.json
+-│   └── server.js
+-│
+-├── frontend/
+-│   ├── package.json
+-│   └── src/
+-│       └── App.js
+-│
+-├── README.md
+-└── ARCHITECTURE.md
 </details>
 
 
