@@ -26,13 +26,21 @@ real-time-chat-app/
 │   ├── package.json
 
 │   └── server.js
+
 │
+
 ├── frontend/
+
 │   ├── package.json
+
 │   └── src/
+
 │       └── App.js
+
 │
+
 ├── README.md
+
 └── ARCHITECTURE.md
 
 
