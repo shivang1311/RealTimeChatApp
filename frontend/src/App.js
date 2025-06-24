@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { io } from 'socket.io-client';
-const socket = io('https://chatbot-backend-j16b.onrender.com');
+const socket = io('https://realtimechatapp-puwy.onrender.com');
 function App() {
   const [username, setUsername] = useState('');
   const [loggedIn, setLoggedIn] = useState(false);
