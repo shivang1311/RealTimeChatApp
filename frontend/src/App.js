@@ -27,7 +27,6 @@ function App() {
     };
   }, []);
 
-  // Auto-scroll to bottom on new message
   useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [chat, typingUser]);
@@ -64,7 +63,6 @@ function App() {
     typingIndicator = typingUser === username ? 'You are typing...' : `${typingUser} is typing...`;
   }
 
-  // Styles
   const containerStyle = {
     maxWidth: 600,
     margin: '30px auto',
@@ -159,7 +157,6 @@ function App() {
     animation: 'blink 1s infinite alternate'
   };
 
-  // Add keyframes for blinking dot
   useEffect(() => {
     const style = document.createElement('style');
     style.innerHTML = `
