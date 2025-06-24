@@ -13,7 +13,6 @@ let chatHistory = [];
 let onlineUsers = {};
 
 io.on('connection', (socket) => {
-  
   socket.on('login', (username) => {
     socket.username = username;
     onlineUsers[username] = socket.id;
@@ -45,7 +44,13 @@ app.get('/', (req, res) => {
   res.send('Backend server is running!');
 });
 
-const PORT = 5000;
+setInterval(() => {
+  chatHistory = [];
+  io.emit('chatHistory', chatHistory);
+  console.log('Chat history cleared automatically every 5 minutes');
+}, 300000);
+
+const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
