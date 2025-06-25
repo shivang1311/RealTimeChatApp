@@ -9,6 +9,22 @@ This project is a modern, full-stack chat platform built with Node.js, Express, 
 
 https://realtimechat13.netlify.app/
 
+## ⚠ Important Note About Live Demo (Netlify + Render Free Tier)
+
+The live demo link above is hosted on *Netlify* (frontend), while the backend server is hosted on *Render (free tier)*.
+
+Because the backend is on Render's free plan, the server may go to sleep after about 15 minutes of inactivity.
+
+*Please keep in mind:*
+- If you open the site after it’s been idle, the backend may take up to 2 minutes to wake up.
+- After logging in, if online users or chat messages are not showing, *please wait for around 2 minutes and then refresh the page*.
+- Once the server is awake, everything (online users, messaging, typing indicator, etc.) will work smoothly and instantly.
+
+This is a limitation of free hosting and not an issue with the app itself.  
+For production or company use, a paid backend plan or always-on server is recommended.
+
+*Thank you for your patience and understanding!*
+
 ---
 
 ## 🚀 Features
