@@ -21,7 +21,6 @@ Because the backend is on Render's free plan, the server may go to sleep after a
 - Once the server is awake, everything (online users, messaging, typing indicator, etc.) will work smoothly and instantly.
 
 This is a limitation of free hosting and not an issue with the app itself.  
-For production or company use, a paid backend plan or always-on server is recommended.
 
 *Thank you for your patience and understanding!*
 
