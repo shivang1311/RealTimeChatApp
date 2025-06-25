@@ -32,7 +32,12 @@ real-time-chat-app
 ├── README.md
 └── ARCHITECTURE.md
 ```
+## ⚙️ Architecture Overview
 
+- **Backend:** Node.js + Express + Socket.IO. Handles real-time communication, user presence, message broadcasting, and auto-clearing of chat history.
+- **Frontend:** React with Socket.IO-client. Provides a modern, responsive UI and manages real-time updates.
+- **Communication:** All events (login, message, typing, online status) are handled via WebSockets for instant updates.
+- **Auto-Clear:** Every 5 minutes, the backend wipes the chat history and notifies all clients.
 ---
 
 ## 🛠️ Getting Started
@@ -64,14 +69,7 @@ npm start
 ```
 Frontend runs at `http://localhost:3000` by default.
 
-
-
-## ⚙️ Architecture Overview
-
-- **Backend:** Node.js + Express + Socket.IO. Handles real-time communication, user presence, message broadcasting, and auto-clearing of chat history.
-- **Frontend:** React with Socket.IO-client. Provides a modern, responsive UI and manages real-time updates.
-- **Communication:** All events (login, message, typing, online status) are handled via WebSockets for instant updates.
-- **Auto-Clear:** Every 5 minutes, the backend wipes the chat history and notifies all clients.
+---
 
 
 ## 🤝 Contributing
