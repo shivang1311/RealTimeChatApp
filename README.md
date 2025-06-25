@@ -65,16 +65,14 @@ node server.js
 Backend runs at `http://localhost:5000` by default.
 
 ### 3. Frontend Setup
-
+```bash
 cd ../frontend
 npm install
-
-
+```
+```bash
 To run the frontend locally:
-
-
 npm start
-
+```
 Frontend runs at `http://localhost:3000` by default.
 
 
