@@ -45,8 +45,8 @@ real-time-chat-app
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/real-time-chat-app.git
-cd real-time-chat-app
+git clone https://github.com/shivang1311/RealTimeChatApp.git
+cd RealTimeChatApp
 ```
 ### 2. Backend Setup
 ```bash
