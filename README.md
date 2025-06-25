@@ -17,32 +17,21 @@ This project is a modern, full-stack chat platform built with Node.js, Express, 
 - **Modern UI:** Distinct message bubbles, avatars, and a clean interface
 
 ---
-
-real-time-chat-app/
+```bash
+real-time-chat-app
 │
-
 ├── backend/
-
 │   ├── package.json
-
 │   └── server.js
-
 │
-
 ├── frontend/
-
 │   ├── package.json
-
 │   └── src/
-
 │       └── App.js
-
 │
-
 ├── README.md
-
 └── ARCHITECTURE.md
-
+```
 
 ---
 
