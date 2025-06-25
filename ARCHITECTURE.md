@@ -19,8 +19,8 @@ The **Real-Time Chat App** is a full-stack application designed to provide insta
 
 ```
              ┌───────────────────────────────┐
-             │         Web Browser          │
-             │     (React Frontend UI)      │
+             │         Web Browser           │
+             │     (React Frontend UI)       │
              └────────────▲──────────────────┘
                           │ Socket.IO Client
                           ▼
