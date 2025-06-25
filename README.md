@@ -58,8 +58,8 @@ cd real-time-chat-app
 cd backend
 npm install
 ```
-```bash
 To run the backend locally:
+```bash
 node server.js
 ```
 Backend runs at `http://localhost:5000` by default.
@@ -69,8 +69,8 @@ Backend runs at `http://localhost:5000` by default.
 cd ../frontend
 npm install
 ```
-```bash
 To run the frontend locally:
+```bash
 npm start
 ```
 Frontend runs at `http://localhost:3000` by default.
