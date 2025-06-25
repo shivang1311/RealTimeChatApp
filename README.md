@@ -54,15 +54,14 @@ git clone https://github.com/yourusername/real-time-chat-app.git
 cd real-time-chat-app
 ```
 ### 2. Backend Setup
-
+```bash
 cd backend
 npm install
-
-
+```
+```bash
 To run the backend locally:
-
 node server.js
-
+```
 Backend runs at `http://localhost:5000` by default.
 
 ### 3. Frontend Setup
