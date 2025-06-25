@@ -20,8 +20,8 @@ This project is a modern, full-stack chat platform built with Node.js, Express, 
 ## 📸 Screenshots
 ### Login Page
 ![Login Page](https://github.com/shivang1311/RealTimeChatApp/blob/6755ba6b2b9210859b457de549d32270461b6df9/Screenshot%202025-06-25%20093857.png)
-### CHAT ROOM
-
+### Chat Room
+![Chat Room](https://github.com/shivang1311/RealTimeChatApp/blob/9303da38c0c1de7cc6b05ca91c4876fe9f639fab/Screenshot%202025-06-25%20094043.png)
 
 ## 📁 Project Structure
 ```bash
