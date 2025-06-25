@@ -5,6 +5,9 @@ Welcome to the **Real-Time Chat App**!
 This project is a modern, full-stack chat platform built with Node.js, Express, Socket.IO, and React. It features real-time messaging, live user presence, typing indicators, and auto-clearing of chat history every 5 minutes. The app is fully responsive and works great on both desktop and mobile.
 
 ---
+## 🌐 Live Demo
+
+https://realtimechat13.netlify.app/
 
 ## 🚀 Features
 
@@ -91,4 +94,4 @@ This project is open-source and free to use for learning and personal projects.
 
 ---
 
-**Enjoy chatting! If you have questions or want to suggest features, feel free to open an issue or contact the maintainer.**
+**Enjoy chatting! If you have questions or want to suggest features, feel free to open an issue or pull request**
